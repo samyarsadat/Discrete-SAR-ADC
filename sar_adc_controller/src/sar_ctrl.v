@@ -1,5 +1,5 @@
 /*
-    Discrete Successive Approximate ADC Controller
+    Discrete Successive-Approximation ADC Controller
     DAC Control and SAR Block
     Written by Samyar Sadat Akhavi, 2026.
 */

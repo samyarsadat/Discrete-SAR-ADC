@@ -1,5 +1,5 @@
 /*
-    Discrete Successive Approximate ADC Controller
+    Discrete Successive-Approximation ADC Controller
     A/D Conversion Flow Control Block
     Written by Samyar Sadat Akhavi, 2026.
 */

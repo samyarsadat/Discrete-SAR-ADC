@@ -1,5 +1,5 @@
 /*
-    Discrete Successive Approximate ADC Controller
+    Discrete Successive-Approximation ADC Controller
     Sample and Hold Analog Switch Control Block
     Written by Samyar Sadat Akhavi, 2026.
 */
