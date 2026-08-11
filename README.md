@@ -105,6 +105,9 @@ A host microcontroller can communicate with the ADC control FPGA over an I²C re
 
 The I²C slave address is set to `0x3c` by default, though it can be changed in [`i2c_slave/i2cSlave_define.v`](sar_adc_controller/src/i2c_slave/i2cSlave_define.v). I have tested the I²C interface at up to a maximum speed of 1 MHz (Fast-mode Plus) without any issues.
 
+> [!NOTE]
+> By default, pins `41` and `42` of the FPGA are `SDA` and `SCL`, respectively.
+
 ### Register Map
 
 | Address | R/W | Function                                | Reset Value   |
@@ -142,7 +145,7 @@ The I²C slave address is set to `0x3c` by default, though it can be changed in 
 > The conversion done flag (bit `4`) can be cleared by writing a `0` to it.
 
 > [!NOTE]
-> Pin 51 of the FPGA is the conversion done pin. It is an active-low open-drain pin.
+> Pin `51` of the FPGA is the conversion done pin. It is an active-low open-drain pin.
 
 <br>
 
