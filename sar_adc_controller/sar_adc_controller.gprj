@@ -1,0 +1,19 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/ad_conv.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_slave/i2cSlave.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_slave/i2cSlave_define.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_slave/registerInterface.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_slave/serialInterface.v" type="file.verilog" enable="1"/>
+        <File path="src/sample_hold.v" type="file.verilog" enable="1"/>
+        <File path="src/sar_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/sar_adc_controller.cst" type="file.cst" enable="1"/>
+        <File path="src/sar_adc_controller.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
