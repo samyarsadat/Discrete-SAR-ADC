@@ -152,7 +152,7 @@ The I²C slave address is set to `0x3c` by default, though it can be changed in 
 ## Contact
 
 You can contact me via e-mail.\
-E-mail: [samyarsadat@gigawhat.net](samyarsadat@gigawhat.net)
+E-mail: [samyarsadat@gigawhat.net](mailto:samyarsadat@gigawhat.net)
 
 <br>
 
