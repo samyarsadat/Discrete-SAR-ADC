@@ -8,9 +8,9 @@
 <br>
 
 ----
-While looking at the ADC section of the RP2350 datasheet a little while ago, I was inspired to design and build my own discrete Successive-Approximation Register (SAR) Analog-to-Digital Converter (ADC). This is the same type of ADC found in the `RP2040`/`RP2350` and many other microcontrollers, where cost and simplicity are more important than accuracy, resolution, or speed.
+While looking at the ADC section of the `RP2350` datasheet last week, I was inspired to design and build my own discrete Successive-Approximation Register (SAR) Analog-to-Digital Converter (ADC). This is the same type of ADC found in the `RP2040`/`RP2350` and many other microcontrollers, where cost and simplicity are more important than accuracy, resolution, or speed.
 
-There are a few different types of ADC architectures available, each with their own strengths and weaknesses. While doing research for this project, I primarily considered SAR and Delta-Sigma ADCs, ultimately concluding that the simplest to build would be a SAR ADC; in retrospect, a dual-slope integrating ADC would also have been easy to build while offering superior linearity.
+There are several types of ADC architectures available, each with their own strengths and weaknesses. While doing research for this project, I primarily considered SAR and, later, Delta-Sigma ADCs, ultimately concluding that a SAR ADC would be simpler to build. In retrospect, a dual-slope integrating ADC would also have been easy to implement while offering superior linearity.
 
 Regardless, I made the decision to only use components I already had available to me in an effort to minimize the time to completion of the project.
 
@@ -152,7 +152,7 @@ The I²C slave address is set to `0x3c` by default, though it can be changed in 
 ## Contact
 
 You can contact me via e-mail.\
-E-mail: samyarsadat@gigawhat.net
+E-mail: [samyarsadat@gigawhat.net](samyarsadat@gigawhat.net)
 
 <br>
 
